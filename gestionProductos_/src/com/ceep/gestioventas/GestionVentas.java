@@ -16,7 +16,7 @@ public class GestionVentas {
         o1.agregarProducto(p1);
         o1.mostrarOrden();
 
-        Orden o2 = new Orden();
+        Orden o2 = new Orden(); //OJO!! SI DECLARO ANTES DA ERROR!!
         o2.agregarProducto(p3);
         o2.agregarProducto(p3);
         o2.agregarProducto(p3);
